@@ -61,7 +61,8 @@ Before you begin, make sure you have the following installed on your machine:
         npm run dev
         ```
 
-    The application should now be accessible at `http://localhost:3000`.
+    The Frontend should now be accessible at `http://localhost:5173`.
+    The Backend should now be accessible at `http://localhost:8000`.
 
 ## Usage
 
