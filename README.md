@@ -23,11 +23,6 @@ Before you begin, make sure you have the following installed on your machine:
 2. **Install Backend Dependencies:**
 
     ```bash
-    cd frontend
-    npm install
-    ```
-
-    ```bash
     cd backend
     npm install
     ```
