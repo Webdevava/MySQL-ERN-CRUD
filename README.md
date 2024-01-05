@@ -18,34 +18,38 @@ Before you begin, make sure you have the following installed on your machine:
 
     ```bash
     git clone https://github.com/Webdevava/MySQL-ERN-CRUD.git
-    cd your-crud-app
     ```
 
 2. **Install Backend Dependencies:**
+
+    ```bash
+    cd frontend
+    npm install
+    ```
 
     ```bash
     cd backend
     npm install
     ```
 
-3. **Create MySQL Database:**
+4. **Create MySQL Database:**
 
     - Open XAMPP and start the MySQL server.
     - Create a new database named `crud_app`.
     - Import the `database.sql` file into the `crud_app` database to set up the required table.
 
-4. **Configure Database Connection:**
+5. **Configure Database Connection:**
 
     - Update the database connection configuration in `server/config/db.js` with your MySQL credentials.
 
-5. **Install Frontend Dependencies:**
+6. **Install Frontend Dependencies:**
 
     ```bash
     cd ../frontend
     npm install
     ```
 
-6. **Start the Application:**
+7. **Start the Application:**
 
     - Start the Node.js server:
 
