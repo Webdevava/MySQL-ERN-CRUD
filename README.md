@@ -30,12 +30,12 @@ Before you begin, make sure you have the following installed on your machine:
 4. **Create MySQL Database:**
 
     - Open XAMPP and start the MySQL server.
-    - Create a new database named `crud_app`.
-    - Import the `database.sql` file into the `crud_app` database to set up the required table.
+    - Create a new database named `crud`.
+    - Import the `database.sql` file into the `crud` database to set up the required table.
 
 5. **Configure Database Connection:**
 
-    - Update the database connection configuration in `server/config/db.js` with your MySQL credentials.
+    - Update the database connection configuration in `backend/index.js`.
 
 6. **Install Frontend Dependencies:**
 
