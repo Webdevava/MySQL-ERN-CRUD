@@ -81,7 +81,7 @@ Before you begin, make sure you have the following installed on your machine:
 - **Backend:**
   - Node.js
   - Express
-  - MySQL
+  - MySQL(XAMPP)
 
 ## Contributing
 
